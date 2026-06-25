@@ -1,32 +1,22 @@
-<p align="center">
-  <img src="assets/icon.png" width="120" alt="Simon Logo">
-</p>
+<div align="center">
 
-<h1 align="center">Simon 学习助手</h1>
+<img src="assets/icon.png" width="200" alt="Simon Logo">
 
-<p align="center">
-  <strong>基于西蒙学习法的专注学习计时器，帮助你高效学习</strong>
-</p>
+# Simon 学习助手
 
-<p align="center">
-  <a href="https://github.com/MgGaWin/simon-releases/releases"><img alt="Version" src="https://img.shields.io/github/v/release/MgGaWin/simon-releases?style=flat-square&label=Version"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square">
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/MgGaWin/simon-releases?style=flat-square"></a>
-  <img alt="Size" src="https://img.shields.io/github/size/MgGaWin/simon-releases/Simon学习助手.exe?style=flat-square">
-  <a href="https://github.com/MgGaWin/simon-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/MgGaWin/simon-releases/total?style=flat-square"></a>
-</p>
+**基于西蒙学习法的专注学习计时器 · 帮助你高效学习**
 
-<p align="center">
-  <a href="#-功能特性">功能特性</a> •
-  <a href="#-快速开始">快速开始</a> •
-  <a href="#-快捷键">快捷键</a> •
-  <a href="#-截图">截图</a> •
-  <a href="#-数据存储">数据存储</a> •
-  <a href="#-更新日志">更新日志</a> •
-  <a href="#-许可证">许可证</a>
-</p>
+[![Version](https://img.shields.io/github/v/release/MgGaWin/simon-releases?style=flat-square&label=Version&color=blue)](https://github.com/MgGaWin/simon-releases/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078d4?style=flat-square&logo=windows)]()
+[![License](https://img.shields.io/github/license/MgGaWin/simon-releases?style=flat-square&color=green)](LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/MgGaWin/simon-releases/total?style=flat-square&color=orange)](https://github.com/MgGaWin/simon-releases/releases)
+[![Stars](https://img.shields.io/github/stars/MgGaWin/simon-releases?style=flat-square&color=yellow)]()
 
 ---
+
+[功能特性](#-功能特性) · [快速开始](#-快速开始) · [快捷键](#-快捷键) · [截图](#-截图) · [数据存储](#-数据存储) · [更新日志](#-更新日志) · [许可证](#-许可证)
+
+</div>
 
 ## ✨ 功能特性
 
@@ -51,7 +41,7 @@
 3. 运行安装程序，按提示完成安装
 4. 启动后自动最小化到系统托盘
 
-> **系统要求：** Windows 10 / 11（64位）
+> **系统要求：** Windows 10 / 11（64位），无需安装 Python 或其他依赖
 
 ### 基本使用
 
@@ -67,19 +57,14 @@
 |:---|:---|
 | `Ctrl + Space` | 开始 / 暂停计时 |
 | `Ctrl + Shift + N` | 跳过当前阶段 |
+| `Ctrl + Shift + S` | 停止计时 |
+| `Ctrl + 1` ~ `Ctrl + 5` | 切换标签页 |
 | `Ctrl + W` | 隐藏到系统托盘 |
 | `Ctrl + Q` | 退出应用 |
 
 ## 📸 截图
 
 > 欢迎提交 PR 添加截图！
-
-<!-- 
-<p align="center">
-  <img src="docs/screenshot-main.png" width="400" alt="主界面">
-  <img src="docs/screenshot-stats.png" width="400" alt="统计页面">
-</p>
--->
 
 ## 💾 数据存储
 
@@ -100,12 +85,12 @@
 
 ```json
 {
-  "focus_minutes": 25,          // 专注时长（分钟）
-  "short_break_minutes": 5,     // 短休息时长
-  "long_break_minutes": 30,     // 长休息时长
-  "daily_goal_hours": 4,        // 每日目标（小时）
-  "sound_enabled": true,        // 是否开启提示音
-  "language": "zh"              // 界面语言（zh/en）
+  "focus_minutes": 25,
+  "short_break_minutes": 5,
+  "long_break_minutes": 30,
+  "daily_goal_hours": 4,
+  "sound_enabled": true,
+  "language": "zh"
 }
 ```
 
@@ -140,6 +125,8 @@
 
 ---
 
-<p align="center">
-  如果觉得有用，请给个 ⭐ Star 支持一下！
-</p>
+<div align="center">
+
+**如果觉得有用，请给个 ⭐ Star 支持一下！**
+
+</div>
